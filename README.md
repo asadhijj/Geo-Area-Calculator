@@ -16,4 +16,4 @@ tests --> pytest
 
 
 ## PULL REQUEST LINK 
-[LINK FOR PULL REQUEST](https://github.com/asadhijj/Geo-Area-Calculator/pull/1)
+[LINK FOR PULL REQUEST](https://github.com/asadhijj/Geo-Area-Calculator/pull/2)
