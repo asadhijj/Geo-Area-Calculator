@@ -25,8 +25,8 @@ class Rectangle(Shape):
 
 class Square(Shape):
     '''a class that takes the values for the Square'''
-    def __init__(self, side):
-        super().__init__(side, side)
+    def __init__(self, side1, side2):
+        super().__init__(side1, side2)
 
 
 class Triangle(Shape):
