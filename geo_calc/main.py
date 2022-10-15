@@ -4,6 +4,10 @@ import geo
 print("----Geometric object area calculator----".upper())
 main = True
 while main:
+    '''
+    this main part allows the user to choose the shape he wants to caluclate the area for by choosing a number and then
+    enter the required values to calculate the area
+    '''
     print("Which shape would you like to calculate ?")
     print(
         """1 - Rectangle\n"""
