@@ -18,16 +18,19 @@ class Shape:
 
 
 class Rectangle(Shape):
+    '''a class that takes the values for the recatngle'''
     def __init__(self, side1, side2):
         super().__init__(side1, side2)
 
 
 class Square(Shape):
+    '''a class that takes the values for the Square'''
     def __init__(self, side):
         super().__init__(side, side)
 
 
 class Triangle(Shape):
+    '''a class that takes the values for the Triangle'''
     def __init__(self, base, height):
         super().__init__(side1=base, side2=height)
 
@@ -38,6 +41,7 @@ class Triangle(Shape):
 
 
 class Circle(Shape):
+    '''a class that takes the values for the circle'''
     def __init__(self, radius):
         super().__init__(side1=radius)
 
@@ -46,6 +50,7 @@ class Circle(Shape):
 
 
 class Hexagon(Shape):
+    '''a class that takes the values for the regular hexagon'''
     def __init__(self, side):
         super().__init__(side)
 
