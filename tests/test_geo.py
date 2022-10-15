@@ -23,7 +23,7 @@ def test_triangle_area():
 
 # testing the square area
 def test_square_area():
-    shape = geo.Square(3)
+    shape = geo.Square(3,3)
     assert shape.get_area() == 9
 
 # testing the circle area

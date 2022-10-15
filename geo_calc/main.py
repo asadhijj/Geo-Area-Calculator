@@ -27,16 +27,17 @@ while main:
                 rectangle = geo.Rectangle(first_side, second_side)
                 print(rectangle.__str__())
             elif choice == 2:
-                side = float(input("Enter side of square: "))
-                square = geo.Square(side)
-                print(side.__str__())
+                side1 = float(input("Enter side of square: "))
+                side2=side1
+                square = geo.Square(side1,side2)
+                print(square.__str__())
             elif choice == 3:
                 base = float(input("Enter base of triangle: "))
                 height = float(input("Enter height of triangle: "))
                 triangle = geo.Triangle(base, height)
                 print(triangle.__str__())
             elif choice == 4:
-                radius = float(input("Enter radius of triangle: "))
+                radius = float(input("Enter radius of circle: "))
                 circle = geo.Circle(radius)
                 print(circle.__str__())
             elif choice == 5:
